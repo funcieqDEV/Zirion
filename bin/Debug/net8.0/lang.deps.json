@@ -1,0 +1,51 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lang/1.0.0": {
+        "dependencies": {
+          "libLLVM": "18.1.3.1",
+          "libLLVM.runtime.win-x64": "18.1.3.1"
+        },
+        "runtime": {
+          "lang.dll": {}
+        }
+      },
+      "libLLVM/18.1.3.1": {},
+      "libLLVM.runtime.win-x64/18.1.3.1": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/libLLVM.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "18.1.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lang/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libLLVM/18.1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SZKRUqMwrk/XW5NR1ZY1KSbDJILF9dgLTszLJl+A8UhkZg8bcw2dthZBxqcbbWUMt5aQBWzbrqJ7b7DNERT++g==",
+      "path": "libllvm/18.1.3.1",
+      "hashPath": "libllvm.18.1.3.1.nupkg.sha512"
+    },
+    "libLLVM.runtime.win-x64/18.1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QEdfeTWuORPpxQKZEVcxnBEcnJizBJcoEAjyiietg8KO8owg0P+S7XIVLEejG3QaH7t5VKS0pUSwNT/6M1VXrQ==",
+      "path": "libllvm.runtime.win-x64/18.1.3.1",
+      "hashPath": "libllvm.runtime.win-x64.18.1.3.1.nupkg.sha512"
+    }
+  }
+}

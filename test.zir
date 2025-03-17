@@ -1,7 +1,6 @@
 ﻿import std::io;
-import std::conv;
-import std::linux;
-
 fn main() : int {
-	return 4/4;
+	int a = 5;
+	printf(" test  ");
+	return 0;
 }
